@@ -76,11 +76,26 @@ let categoria3 = categorias(
     );
 
 
-let articulo1 = precios(categoria1,4500,2500,1500);
+let articulo1 = precios(
+    categoria1,
+    4500,
+    2500,
+    1500
+    );
 
-let articulo2 = precios(categoria2,1500,1000,800);
+let articulo2 = precios(
+    categoria2,
+    1500,
+    1000,
+    800
+    );
 
-let articulo3 = precios(categoria3,600,500,400);
+let articulo3 = precios(
+    categoria3,
+    600,
+    500,
+    400
+    );
 
 //Para probar
 // console.log(categoria1);
@@ -91,7 +106,7 @@ let articulo3 = precios(categoria3,600,500,400);
 // console.log("En la categoría 3 compraste " + articulo3);
 
 
-let total = articulo1 + articulo2 + articulo3
+let total = articulo1 + articulo2 + articulo3;
 
 //console.log(total)
 
